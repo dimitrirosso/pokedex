@@ -1,6 +1,7 @@
 const pokecontainer = document.querySelector("#pokecontainer");
 
 const pokemon = 1280;
+
 const colors = {
     fire: '#FDDFDF',
     grass: '#DEFDE0',
