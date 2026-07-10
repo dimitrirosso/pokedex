@@ -46,6 +46,7 @@ const pokemoncard = (poke) => {
     const type = maintypes.find(type => poketypes.indexOf(type) > -1)
     const color = colors[type]
     card.style.backgroundColor = color
+    
 
     const pokehtml = `
     <div class="imgcontainer">
